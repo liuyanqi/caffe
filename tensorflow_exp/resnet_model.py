@@ -293,4 +293,4 @@ class ResNet(object):
 
   def _global_avg_pool(self, x):
     assert x.get_shape().ndims == 4
-return tf.reduce_mean(x, [1, 2])
+    return tf.reduce_mean(x, [1, 2])

@@ -112,4 +112,4 @@ def build_input(dataset, data_path, batch_size, mode):
 
   # Display the training images in the visualizer.
   tf.summary.image('images', images)
-return images, labels
+  return images, labels
